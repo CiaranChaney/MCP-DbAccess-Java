@@ -15,7 +15,6 @@ response = client.responses.create(
                 "require_approval": "never"
             },
     ],
-    # put structured arguments at top-level so the server receives them
     input="Give me 1 user from the database.",
 )
 
